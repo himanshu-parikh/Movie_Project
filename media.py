@@ -3,6 +3,10 @@ __author__ = 'himanshuparikh'
 import webbrowser
 # Definition of our Movie Class
 class Movie():
+    """This class provides a way to store movie related information"""
+
+    VALID_RATINGS = {"G","PG","PG-13","R"}
+
     # Initialize our object with the init constructor
     def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
         #populate Instance Variables with the passed in object.

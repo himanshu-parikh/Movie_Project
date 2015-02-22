@@ -31,7 +31,12 @@ mission_impossible = media.Movie("Mission Impossible","An American agent, under 
 #Movies array to be passed into open_movies_page function in fresh_tomatoes file
 movies = {the_dark_knight,taken, iron_man, mission_impossible}
 
+# Display movies in a webpage
 fresh_tomatoes.open_movies_page(movies)
+
+#print(media.Movie.VALID_RATINGS)
+#print(media.Movie.__doc__)
+
 
 #Debugging scripts to make sure everything is working good.
 #print(the_dark_knight.storyline)
